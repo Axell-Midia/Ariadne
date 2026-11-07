@@ -1,0 +1,33 @@
+{
+  "name": "foodtracker-client",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:host": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "icons": "powershell -ExecutionPolicy Bypass -File ./scripts/gen-icons.ps1"
+  },
+  "dependencies": {
+    "@mdi/js": "^7.4.47",
+    "@mlc-ai/web-llm": "^0.2.86",
+    "@supabase/supabase-js": "latest",
+    "dexie": "latest",
+    "dexie-react-hooks": "latest",
+    "echarts": "^6.1.0",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8",
+    "react": "latest",
+    "react-dom": "latest",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "latest",
+    "@vitejs/plugin-react": "latest",
+    "tailwindcss": "latest",
+    "vite": "latest",
+    "vite-plugin-pwa": "latest"
+  }
+}
